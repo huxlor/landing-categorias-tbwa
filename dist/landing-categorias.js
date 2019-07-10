@@ -141,9 +141,23 @@ __webpack_require__(2);
         $('.slider-offers').slick({
             infinite: true,
             slidesToShow: 1,
-            arrows: false,
+            arrows: true,
             dots: true,
             slidesToScroll: 1,
+            responsive: [
+              {
+                breakpoint: 768,
+                settings: {
+                  arrows: false
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  arrows: false
+                }
+              }
+            ]
           });
 
           $('.slider-brands').slick({
@@ -164,11 +178,11 @@ __webpack_require__(2);
                 }
               },
               {
-                breakpoint: 480,
+                breakpoint: 600,
                 settings: {
-                  centerMode: true,
-                  arrows: false,
-                  slidesToShow: 3
+                  centerMode: false,
+                  slidesToShow: 4,
+                  arrows: false
                 }
               }
             ]
@@ -195,6 +209,7 @@ __webpack_require__(2);
                 breakpoint: 800,
                 settings: {
                   arrows: false,
+                  centerMode: false,
                   slidesToShow: 2,
                   dots: true
                 }
