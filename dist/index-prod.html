@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+	<vtex:contentPlaceHolder id="opengraph" />
+	<vtex:template id="metas" />
+	<vtex:template id="favIcon"/>
+
+  <link rel="stylesheet" href="/files/global.css" />
+  <link rel="stylesheet" href="/arquivos/slick-theme.css"/>
+  <link rel="stylesheet" href="/arquivos/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="/arquivos/jumbo-font.css"/>
+  <link rel="stylesheet" type="text/css" href="/arquivos/fonts-ofd.css"/>
+  <link rel="stylesheet" type="text/css" href="/files/landing-categorias.css" />
+
+  	<style>
+		.category-wrapper .description-category {
+			display: block;
+			width: 100%;
+			padding: 10px 10px 10px 0;
+			font-size: 12px;
+		}
+		.category-wrapper .description-category p {
+			line-height: 1.5;
+			margin-bottom: 25px;
+			font-weight: 300;
+			color: #525252;
+		}
+
+		.category-wrapper .description-category p a {
+			display: inline-block;
+			font-weight: bold;
+		}
+		
+		.category-wrapper .description-category p b {
+			display: inline-block;
+		}
+		
+		.btn.second-border.filter-button.mobile{
+		    display:none;
+		}
+
+		@media all and (max-width: 760px) {
+			.category-wrapper .description-category {
+				display: block;
+				width: 100%;
+			}
+
+			.category-wrapper .description-category p {
+				text-align: center;
+			}
+		}
+	</style>
+    
+</head>
+
+<body class="department">
+  <!-- Overlays -->
+<vtex:template id="overlay-delivery-window" />
+<vtex:template id="overlay-store-selector" />
+<vtex:template id="overlay-product-quickview" />
+<vtex:template id="overlay-added-to-cart" />
+<vtex:template id="overlay-add-shop-list" />
+<vtex:template id="overlay-added-to-lists" />
+<vtex:template id="overlay-store" />
+<vtex:template id="overlay-successfull-config" />
+<vtex:template id="overlay-delivery-city" />
+
+
+<style>
+.slick-prev:before, .slick-next:before {
+    color: grey!important
+}
+</style>
+
+<!-- /Overlays -->
+
+<div id="highlight-background"></div>
+
+<!-- Preload Screen -->
+<vtex:template id="preload-screen" />
+<!-- Preload Screen -->
+
+<!-- /GLOBAL TEMPLATES -->
+
+	<!-- Overlay Filters Mobile -->
+	<vtex:template id="overlay-filters-mobile" />
+
+  <!-- Header -->
+  <vtex:template id="header" />
+  <!-- /Header -->
+
+  <!-- Navigation -->
+  <vtex:template id="navigation" />
+  <!-- /Navigation -->
+
+  <main id="landing_categorias" class="cont_categorias">
+        <div class="wrapper">
+            <div class="center">
+            <!-- SLIDESHOW -->
+                <vtex:contentPlaceHolder id="hero-slider" class="cont_categorias__slider slider-offers"/>
+            <!-- /SLIDESHOW -->
+
+            <!-- SLIDE BRAND -->
+                <h2 class="text__center text__normal title__section"><span class="text__light">Compra por </span> Marcas</h2>
+                <vtex:contentPlaceHolder id="brand-slider" class="cont_categorias__second slider-brands"/>
+            <!-- /SLIDE BRAND -->
+            
+            
+            <!-- TEST CATEGORIES GRID -->
+            <section class="category__container">
+                <!-- SNIPET MENU VTEX -->
+                <aside class="category__menu">
+                    <h2 id="leftMenuTitle" class="text__normal">Celulares<span>y telefonía</span></h2>
+                    <div id="leftMenuMobile" class="accordion__container">
+                        <vtex:contentPlaceHolder id="inter-menu" class="category__content"/>
+                    </div>
+                </aside>
+                <!-- /SNIPET MENU VTEX -->
+                <vtex:contentPlaceHolder id="right-grilla-slider" class="category__content"/>
+            </section>
+            <!-- /TEST CATEGORIES GRID -->
+
+            <!-- LIST BANNERS 2 -->
+                <vtex:contentPlaceHolder id="total-grilla" class="cont_categorias__third"/>
+            <!-- /LIST BANNERS 2 -->
+
+            <!-- NOVEDADES LIST -->
+                <h2 class="text__center text__normal title__section">Novedades <span class="text__light">2019</span></h2>
+                <vtex:contentPlaceHolder id="vitrina-slider" class="cont_categorias__four slider-landing"/>
+            <!-- NOVEDADES LIST -->
+
+            <!-- Chaordic BOTTOM -->
+                <div chaordic="bottom"></div>
+            <!-- /Chaordic BOTTOM -->
+
+            <!-- BANNER
+                <div class="cont_categorias__six"  data-src="https://jumbocolombiafood.vteximg.com.br/arquivos/Cat-celulares-desktop-cel-motorola.jpg" data-mobile="https://jumbocolombiafood.vteximg.com.br/arquivos/Cat-celulares-Mobile-cel-motorola.jpg" data-position="banner-01">
+                    <img src="../images/banner-ac.jpg" alt="Ancho Completo" />
+                </div>
+             BANNER -->
+            
+            </div>
+        </div>
+    </main>
+
+  <!-- Footer -->
+  <vtex:template id="footer" />
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>-->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="/arquivos/slick.min.js"></script>
+    <!-- <script src="https://www.tiendasjumbo.co/arquivos/isotope-docs.min.js"></script> -->
+    <script src="/files/landing-categorias.js"></script>
+    <script src="https://masonry.desandro.com/masonry.pkgd.js"></script>
+
+    <!-- LLAMA LISTADO VTEX -->
+    <script src="/files/list.js" charset="utf-8"></script>
+    <!-- /LLAMA LISTADO VTEX -->
+
+  
+  <!-- /Footer -->  
+</body>
+</html>

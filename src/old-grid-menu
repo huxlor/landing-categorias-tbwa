@@ -1,0 +1,104 @@
+            <!-- LIST AND BANNERS 1 -->
+                <div class="cont_categorias__first">
+                    <!-- ASIDE MENU -->
+                    <aside class="left">
+                        <h2 id="leftMenuTitl" class="text__normal">Celulares<span>y telefonía</span></h2>
+                        <div id="leftMenuMobil" class="left__menu">
+                            <div id="accordon" class="accordion__container">
+                                <!-- MARCAS -->
+                                <p class="accordion__title accordion">Subcategorías</p>
+                                <div class="panel">
+                                    <span>
+                                        <input type="checkbox" id="huey" name="drone" value="huey">
+                                        <label for="huey">Huey</label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" id="nokia" name="drone" value="nokia">
+                                        <label for="nokia">Nokia</label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" id="samsung" name="drone" value="samsung">
+                                        <label for="samsung">Samsung</label>
+                                    </span>
+                                </div>
+                                <!-- MEMORIA -->
+                                <p class="accordion__title accordion">Memoria interna</p>
+                                <div class="panel">
+                                    <span>
+                                        <input type="checkbox" id="2gb" name="drone" value="2gb">
+                                        <label for="2gb">2gb</label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" id="4gb" name="drone" value="4gb">
+                                        <label for="4gb">4gb</label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" id="8gb" name="drone" value="8gb">
+                                        <label for="8gb">8gb</label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" id="16gb" name="drone" value="16gb">
+                                        <label for="16gb">16gb</label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" id="32gb" name="drone" value="32gb">
+                                        <label for="32gb">32gb</label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" id="64gb" name="drone" value="64gb">
+                                        <label for="64gb">64gb</label>
+                                    </span>
+                                </div>
+                                <!-- Precio -->
+                                <p class="accordion__title accordion">Rango de precios</p>
+                                <div class="panel">
+                                    <span>
+                                        <input type="checkbox" id="menosde$300.000" name="drone" value="menosde$300.000">
+                                        <label for="menosde$300.000">Menos de $300.000</label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" id="entre$300y6000" name="drone" value="entre$300y6000">
+                                        <label for="entre$300y6000">Entre de $300.001 y $600.000</label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" id="entre$600y9000" name="drone" value="entre$600y9000">
+                                        <label for="entre$600y9000">Entre de $600.001 y $900.000</label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" id="entre$900y1500" name="drone" value="entre$900y1500">
+                                        <label for="entre$900y1500">Entre de $900.001 y $1.500.000</label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" id="entre$1500y3000" name="drone" value="entre$1500y3000">
+                                        <label for="entre$1500y3000">Entre de $1.500.001 y $3.000.000</label>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                    <!-- ASIDE MENU -->
+                    <div class="right">
+                        <div class="right__grid grid">
+                            <div class="grid-item z1  height2">
+                                <img class="intern-box" src="https://jumbocolombiafood.vteximg.com.br/arquivos/banner-Iphone.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="grid-item z2  height2">
+                                <img class="intern-box" src="https://jumbocolombiafood.vteximg.com.br/arquivos/banner-s10-plus.jpg" alt="">
+                            </div>
+                            <div class="grid-item z3">
+                                <img class="intern-box" src="https://jumbocolombiafood.vteximg.com.br/arquivos/banner-accesorios-celulares.png" alt="">
+                            </div>
+                            <div class="grid-item z4">
+                                <img class="intern-box" src="https://jumbocolombiafood.vteximg.com.br/arquivos/banner-envio-gratis.png" alt="">
+                            </div>
+                            <div class="grid-item z5">
+                                <div class="intern-box" style="background-image: url('../images/w1.jpg')"></div>
+                            </div>
+                            <div class="grid-item z6">
+                                <div class="intern-box" style="background-image: url('../images/w11.jpg')"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- LIST AND BANNERS 1 -->
